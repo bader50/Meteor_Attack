@@ -62,6 +62,7 @@ while running:
             # Mouse event
             if event.type == pygame.MOUSEBUTTONDOWN:
                 mx, my = pygame.mouse.get_pos()
+                #get the location of the mouse click to start the game
                 if window.get_width() // 2 - 190 < mx < (window.get_width() // 2 - 190 + 400):
                     if window.get_height() // 2 + 10 < my < (window.get_height() // 2 + 10 + 150):
                         banner_running = False
